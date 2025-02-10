@@ -16,6 +16,9 @@ Select the instructions depending on Espressif chip installed on your developmen
 - [ESP32 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/stable/get-started/index.html)
 - [ESP32-S2 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/get-started/index.html)
 
+## ESP32projects
+
+This is a repository for various ESP32-based projects.
 
 ## Example folder contents
 
@@ -25,14 +28,9 @@ ESP-IDF projects are built using CMake. The project build configuration is conta
 
 Below is short explanation of remaining files in the project folder.
 
-```
-├── CMakeLists.txt
-├── pytest_hello_world.py      Python script used for automated testing
-├── main
-│   ├── CMakeLists.txt
-│   └── hello_world_main.c
-└── README.md                  This is the file you are currently reading
-```
+── CMakeLists.txt ├── pytest_hello_world.py Python script used for automated testing ├── main │ ├── CMakeLists.txt │ └── hello_world_main.c └── README.md This is the file you are currently reading
+
+
 
 For more information on structure and contents of ESP-IDF projects, please refer to Section [Build System](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/build-system.html) of the ESP-IDF Programming Guide.
 
