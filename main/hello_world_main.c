@@ -46,7 +46,7 @@ void app_main(void)
         printf("Restarting in %d seconds...\n", i);
         vTaskDelay(10000/ portTICK_PERIOD_MS);
     }
-    printf("Restarting now.\n");
+    printf("Restarting in a bit.\n");
     fflush(stdout);
     esp_restart();
 }
